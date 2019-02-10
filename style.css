@@ -1,0 +1,898 @@
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('CaviarDreams-webfont.eot');
+    src: url('CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('CaviarDreams-webfont.woff2') format('woff2'),
+         url('CaviarDreams-webfont.woff') format('woff'),
+         url('CaviarDreams-webfont.ttf') format('truetype'),
+         url('CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  background-color: white;
+}
+     
+
+a {
+  font-family: caviar_dreamsregular;
+}
+
+h1 {
+  text-align: center;
+  font-family: caviar_dreamsregular;
+}
+
+.cookie-alert {
+   position: fixed;
+   bottom: 20px;
+   right:20px;
+   border-radius: 10px;
+   background:#2f2f2f;
+   color:#fff;
+   padding:10px 15px;
+   width:280px;
+   z-index:100;
+}
+.cookie-alert a { 
+   display:block;
+   text-align: center;
+   padding:5px 10px;
+   margin:8px auto 0 auto;
+   border-radius: 10px;
+   background:transparent;
+   border: 2px solid #46A2D9;
+   color:#46A2D9;
+   transition: all .3s ease;
+}
+.cookie-alert a:hover {
+      background: #46A2D9;
+      color:#2f2f2f;
+   }
+   
+@media only screen and (max-width:480px) {
+   .cookie-alert {
+      text-align: center;
+      left: 0; right: 0;;
+        margin: 0 auto;
+      max-width:700px;
+      padding:10px 30px;
+   }
+}
+
+
+.compte {
+  color: none;
+  border: 1px solid #EEECEE;
+  border-radius: 10px;
+  padding: 2px;
+  margin: auto;
+  width: 350px;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  background-color: white;
+}
+
+.compte1 {
+  color: none;
+  border: 1px solid #EEECEE;
+  border-radius: 10px;
+  padding: 2px;
+  margin: auto;
+  width: 400px;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  background-color: white;
+}
+
+.profil {
+  color: none;
+  border: 1px solid #EEECEE;
+  border-radius: 10px;
+  padding: 2px;
+  margin: auto;
+  width: 800px;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  background-color: white;
+  font-size: 65%;
+  font-family: caviar_dreamsregular;
+}
+
+.edition {
+  color: none;
+  border: 1px solid #EEECEE;
+  border-radius: 10px;
+  padding: 2px;
+  margin: auto;
+  width: 500px;
+  margin-top: 50%;
+  margin-bottom: 50%;
+  background-color: white;
+  font-size: 65%;
+  font-family: caviar_dreamsregular;
+}
+
+.affichage{
+  display: table;
+  color: none;
+  border: 1px solid #EEECEE;
+  border-radius: 10px;
+  padding: 2px;
+  width: 800px;
+  margin : auto;
+  margin-bottom: 3%;
+  margin-top: 1%;
+  background-color: white;
+  
+}
+
+.affichage1{
+  color: none;
+  border: 1px solid #EEECEE;
+  border-radius: 10px;
+  padding: 2px;
+  width: 800px;
+  margin : auto;
+  margin-bottom: 3%;
+  margin-top: 1%;
+  background-color: white;
+  
+}
+
+p.affichage{
+    text-align: center; /* Centrage horizontal */
+    vertical-align: middle; /* Centrage vertical */
+    padding: 10px;
+    border-radius: 5px;
+    font-family: caviar_dreamsregular;
+    border-spacing: 50px;
+    justify-content: space-between;
+  }
+
+div.affichage{
+    text-align: center; /* Centrage horizontal */
+    vertical-align: middle; /* Centrage vertical */
+    padding: 10px;
+    border-radius: 5px;
+    font-family: caviar_dreamsregular;
+    border-spacing: 50px;
+    justify-content: space-between;
+  }
+  
+p.affichage1{
+    display: table-cell;
+    text-align: center; /* Centrage horizontal */
+    vertical-align: middle; /* Centrage vertical */
+    padding: 5px;
+    border-radius: 5px;
+    font-family: caviar_dreamsregular;
+    border-spacing: 5px;
+    border-collapse: separate;
+    justify-content: space-between;
+
+}
+
+/**div.tableau {
+    display: table;
+    border-collapse: separate; /* Pour s'assurer que les cellules ne sont pas collées */
+    /*border-spacing: 10px; /* 5 pixels d'écartement entre les colonnes */   
+   /* border-top: 100px; */
+    /*vertical-align: middle;
+    text-align: left;
+}*/
+
+
+.coach {
+  color: none;
+  border: 1px solid #EEECEE;
+  border-radius: 10px;
+  padding: 2px;
+  margin: auto;
+  width: 400px;
+  margin-top: 30px;
+  background-color: white;
+  font-family: caviar_dreamsregular;
+}
+
+/.oui, .valider {
+ margin-left: 50%;
+}
+
+.non {
+ margin-left: 60%;
+}
+
+.radio {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: auto;
+}
+
+.user {
+  font-size: 90%;
+  font-family: caviar_dreamsregular;
+}
+
+.connexion {
+  font-size: 100%;
+  font-family: caviar_dreamsregular;
+}
+
+.compte h1, .compte1 h1 {
+  font-size: 200%;
+  font-family: caviar_dreamsregular;
+
+}
+
+/*.mail, .pass {
+  color: black;
+}*/
+
+.piste {
+  color: black;
+  text-align: center;
+  height: 72vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+.piste1 {
+  color: black;
+  text-align: center;
+  height: 90vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+.athlete {
+  color: black;
+  text-align: center;
+  height: 100vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.athlete1 {
+  color: black;
+  text-align: center;
+  height: 95vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.athlete2 {
+  color: black;
+  text-align: center;
+  height: 80vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.navbar-babybusiness {
+  background: white;
+  transition: all 0.3s ease;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  margin-right: 40px;
+  margin-left: 30px;
+ 
+}
+.navbar-babybusiness-brand img {
+  height: 50px;
+}
+
+.navbar-babybusiness-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.navbar-babybusiness-item {
+  cursor: pointer;
+}
+
+.navbar-babybusiness-link {
+  color: black;
+  font-size: 15px;
+  font-family: caviar_dreamsregular;
+  text-decoration: none;
+
+}
+
+
+.navbar-babybusiness-link : hoover {
+  text-decoration: none;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    color: black;
+    padding: 13px;
+    font-size: 15px;
+    font-family: caviar_dreamsregular;
+    position: relative;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 13px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: transparent;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: transparent;} 
+
+/*.dropdown {*/
+  font-family: caviar_dreamsregular;
+}
+/*.dropdown {*/
+    position: relative;
+    display: inline-block;
+}
+
+
+/*.dropdown:hover .dropdown-menu {display: block;}*/
+
+
+.button {
+  border-radius: 50px;
+  border-style: none;
+  border-color: white;
+  position: relative;
+}
+
+
+.banner {
+  color: black;
+  height: 100vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: caviar_dreamsregular;
+  border-radius: 3px;
+}
+
+
+
+.banner h1 {
+  font-size: 100px;
+  font-weight: normal;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: caviar_dreamsregular;
+}
+
+.banner h2 {
+  text-align: right;
+  font-family: caviar_dreamsregular;
+}
+.banner h3 {
+  text-align: right;
+  font-family: caviar_dreamsregular;
+  font-size: 0.75em;
+}
+
+.banner h4 {
+  text-align: right;
+  font-family: caviar_dreamsregular;
+  font-size:0.5em;
+}
+.banner p {
+  font-size: 25px;
+  font-weight: normal;
+  opacity: 1;
+  margin-bottom: 0px;
+  margin-top: -200px;
+  text-align: center;
+  font-family: caviar_dreamsregular;
+  color: white;
+}
+
+
+.banner label {
+  color: white;
+}
+
+.search {
+  border-radius: 3px;
+  border : 1px solid white;
+}
+
+
+
+
+/*.btn-treehouse {
+  color: grey;
+  font-weight: normal;
+  font-family: Proxima Nova Alt;
+  background: white;
+  transition: background 0.3s ease;
+  text-decoration: none;
+}*/
+
+.btn-treehouse {
+  color: white;
+  padding: 10px 17px;
+  border-radius: 4px;
+  border : none;
+  /*box-shadow: 2px 2px 3px black;*/
+  font-weight: normal;
+  font-family: caviar_dreamsregular;
+  font-size: 17px;
+  background: #2666A2;
+  /*transition: background 0.3s ease;*/
+  cursor: pointer;
+}
+
+/*.btn-treehouse:hover {
+  text-decoration: underline;
+  color: white;
+  background: transparent;
+  border: solid;
+  border-color: white;
+  border-width: 1px;  
+}*/
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.card {
+  margin: 10px 20px 10px 20px;
+  background: yellow;
+  position: relative;
+  border-radius: 5px; 
+  width: 320px;
+  height: 320px;
+  background: url(Images/math.jpg);
+  background-size: cover;
+  color: white;
+  border-radius: 5px;
+  text-shadow: 0 0 10px black;
+  font-family: caviar_dreamsregular;
+}
+
+.card1 {
+  margin: 10px 20px 10px 20px;
+  background: yellow;
+  height: 200px;
+  width: 320px;
+  height: 320px;
+  position: relative;
+  background: url(Images/physique.jpg);
+  background-size: cover;
+  color: black;
+  border-radius: 5px;
+  text-shadow: 0 0 10px black;
+  font-family: caviar_dreamsregular;
+}
+
+.card1 h3 {
+  color: black;
+}
+
+.card2 {
+  margin: 10px 10px 20px 20px;
+  background: yellow;
+  height: 200px;
+  border-radius: 5px; 
+  width: 320px;
+  height: 320px;
+  position: relative;
+  background: url(Images/chimie.jpg);
+  background-size: cover;
+  color: white;
+  border-radius: 5px;
+  text-shadow: 0 0 10px black;
+  font-family: caviar_dreamsregular;
+}
+
+
+
+.card-avatar {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.card-author {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.card-title {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.card-author {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.card-title {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.card1-title {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+
+.avatar {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.avatar-lg {
+  width: 150px;
+  height: 150px;
+}
+
+.avatar-xs {
+  width: 16px;
+  height: 16px;
+}
+
+.avatar-md {
+  width: 72px;
+  height: 72px;
+}
+
+.card {
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+
+.card1 {
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: top;
+  color: white;
+  position: relative;
+}
+
+.card2 {
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+
+
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 40px;
+  border-radius: 50%;
+}
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-description h2 {
+  font-size: 24px;
+}
+.card-description p {
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: lighter;
+}
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+
+p {
+  font-family: caviar_dreamsregular;
+  text-align:center;
+  color: black;
+}
+
+ul {
+  font-family: caviar_dreamsregular;
+  color: black;
+}
+
+.professionnel {
+  font-family: caviar_dreamsregular;
+  text-align: center;
+  color : black;
+}
+
+.rdv {
+  font-family: caviar_dreamsregular;
+  text-align: center;
+  color : black;
+}
+
+.pseudo {
+  color: black;
+}
+h4 {
+  font-family: caviar_dreamsregular;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.colonnes {
+    display: table;
+    border-collapse: separate; /* Pour s'assurer que les cellules ne sont pas collées */
+    border-spacing: 10px; /* 5 pixels d'écartement entre les colonnes */   
+   /* border-top: 100px; */
+    vertical-align: middle;
+    text-align: center;
+}
+
+div.colonnes1 {
+    display: table;
+    border-collapse: separate; /* Pour s'assurer que les cellules ne sont pas collées */
+    border-spacing: 100px; /* 5 pixels d'écartement entre les colonnes */   
+    /*border-top: 100px; */
+    vertical-align: middle;
+    text-align: center;
+    margin-left: -80px;
+    margin-bottom: -50px;
+    margin-top: -90px;
+
+}
+
+
+
+p.colonne, p.contenu, p.third, p.fourth {
+    display: table-cell;
+    text-align: center; /* Centrage horizontal */
+    vertical-align: middle; /* Centrage vertical */
+    padding: 5px;
+    border-radius: 5px;
+    text-indent: 20px;
+    font-family: caviar_dreamsregular;
+    border-spacing: 5px;
+    justify-content: space-between;
+
+}
+
+.contenu {
+  border-spacing: 100px;
+}
+
+
+p.fifth {
+     display: table-cell;
+  text-align: center; /* Centrage horizontal */
+    vertical-align: bottom; /* Centrage vertical */
+    padding: 5px;
+    border-radius: 5px;
+    text-indent: 25px;
+    font-family: caviar_dreamsregular;
+}
+
+h5 {
+    font-family: caviar_dreamsregular;
+    text-align: left;
+    vertical-align: middle;
+
+}
+
+.kedge {
+  opacity: 0.5;
+}
+
+.tarif {
+  vertical-align: middle;
+  text-align: center;
+  font-family: caviar_dreamsregular;
+}
+
+.partenariat {
+  font-size: 20px;
+}
+
+.subscribe {
+  margin: 0px auto;
+  padding: 0px;
+  width: 1000px;
+  /*background: transparent;*/
+  border-radius: 0px;
+}
+
+
+.subscribe-form {
+  position: relative;
+  margin: 0px -20px -100px 5px;
+  padding: 16px;
+  background: none;
+  border-top: 0px solid;
+  border-radius: 0 0 0px 0px;
+}
+
+.subscribe-input {
+  padding: 0 5px;
+  width: 80%;
+  height: 40px;
+  font-family: caviar_dreamsregular;
+  font-size: 5px;
+  color: #444;
+  border: 0,5px solid;
+  border-radius: 0px;
+  font-size: 11px;
+}
+
+.subscribe-submit {
+  display: block;
+  position: static;
+  top: 16px;
+  right: 15px;
+  padding-left: 1px;
+  height: 40px;
+  width: 50px;
+  background: white;
+  font-style: white;
+  border-radius: 0 0px 0px 0;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: bold;
+  font-family: caviar_dreamsregular;
+
+}
+
+
+
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+  font-size: 12px;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  padding: 0px 10px;
+}
+.footer-links a {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+
+.snapchat : hover {
+
+}
+
+.footer-copyright {
+  font-family: caviar_dreamsregular;
+  font-size: x-small;
+}
+
+
+/*notrehistoire.php*/
+.histoire {
+  color: none;
+  border: 1px solid #EEECEE;
+  border-radius: 10px;
+  padding: 2px;
+  margin: auto;
+  width: 90%;
+  margin-top: 2%;
+  background-color: white;
+  text-align: right;
+}
+
+
